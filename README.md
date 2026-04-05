@@ -66,7 +66,8 @@ A modern, feature-rich product management dashboard built with Next.js. Create, 
 **Switching Themes**
     Click the sun/moon icon in the top bar to toggle between light and dark mode
 
-**📁 Project Structure**
+## 📁 Project Structure
+
 product-studio/
 ├── app/
 │   ├── layout.tsx          # Root layout with ThemeProvider
@@ -85,14 +86,14 @@ product-studio/
 │   └── storage.ts          # localStorage helpers
 └── public/                 # Static assets
 
-**💾 Data Storage**
+## 💾 Data Storage
     All products are stored in your browser's localStorage using the key product_studio_v1. This means:
     ✅ Data persists after page refresh
     ✅ Works offline
     ✅ No backend or database required
     ✅ Sample products pre-loaded on first visit
 
-**Future Improvements**
+## Future Improvements 
     Given more time, I would add:
     Backend Integration - Connect to a real database (PostgreSQL/MongoDB)
     User Authentication - Login system for multiple users
@@ -101,7 +102,7 @@ product-studio/
     Pagination - Handle large product lists efficiently
     Analytics Charts - Visual representation of sales and inventory
 
-**Assumptions**
+## Assumptions
     During development, I assumed:
     No backend required - Using localStorage for simplicity
     Sample products - Pre-loaded to demonstrate functionality
@@ -109,7 +110,7 @@ product-studio/
     Single user - No authentication needed for this demo
     Mobile-first - Responsive design prioritized
 
-**Acknowledgments**
+## Acknowledgments
     Icons by Lucide
     Built with Next.js
     Styled with Tailwind CSS
